@@ -54,11 +54,10 @@
     .menu-branding .potrait {
       width: 250px;
       height: 250px;
-      background: url(../img/face.jpg);
+      margin: auto;
+      background: url(../img/faces.jpg);
       border-radius: 50%;
-      border: solid 3px #eece1a;
-      width: 250px;
-      height: 250px; }
+      border: solid 3px #eece1a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
@@ -168,6 +167,14 @@ main {
 .bio {
   grid-area: bio;
   font-size: 1.5rem; }
+  .bio .btn-download {
+    background-color: #eece1a;
+    color: #fff;
+    border: solid 3px #fff;
+    text-align: center;
+    padding: 10px 32px;
+    font-size: 20px;
+    border-radius: 8px; }
 
 .job-1 {
   grid-area: job1; }

@@ -12,7 +12,7 @@
         width: 28px;
         height: 3px;
         margin: 0 0 5px 0;
-        background: #fff;
+        background: set-text-color($primary-color);
         @include easeOut;
     }
 
@@ -90,9 +90,11 @@
         .potrait {
             width: 250px;
             height: 250px;
-            background: url(../img/bg2.jpeg);
+            background: url(../img/face.jpg);
             border-radius: 50%;
             border: solid 3px $secondary-color;
+            width: 250px;
+            height: 250px;
         }
     }    
         .nav-item {
@@ -116,7 +118,7 @@
             text-transform: uppercase;
             padding: 1rem 0;
             font-weight: 300;
-            color: #fff;
+            color: set-text-xolor($primary-color);
             text-decoration: none;
             @include easeOut;
 
